@@ -1,23 +1,5 @@
-# nostr-relay-registry
+# nostr-relay-status
 
-A dynamic registry of nostr relays that tests for very basic tasks in real-time.
+VueJS based Network Status Monitor for Nostr with advanced tests. Based on `jb55/nostr-js` and `dskvr/nostr-relay-inspector` 
 
-## Docker
-
-Build the docker image:
-
-```bash
-docker build -t nostr-relay-registry .
-```
-
-Run the container interactively:
-
-```bash
-docker run --rm -it --name=nostr-relay-registry -p 8080:80 nostr-relay-registry
-```
-
-Run container in the background:
-
-```bash
-docker run -d --restart unless-stopped --name nostr-relay-registry -p 8080:80 nostr-relay-registry
-```
+_Work in progress_
